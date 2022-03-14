@@ -1,11 +1,13 @@
 import random
 
+__version__ = 2.1
+
 # Create a random number between 1 and 100
 num = random.randint(1, 100)
 # Set the guess value to -1
 guess = -1
 
-print('Welcome to HI - LO game')
+print('Welcome to HI - LO game Version ', __version__)
 
 while guess != num:
     guess_text = input('Guess a number between 1 & 100: ')
